@@ -16,3 +16,5 @@ venv/
 # Editor-specific configurations
 .vscode/
 .idea/
+my_vector_store/
+temp-repo/
