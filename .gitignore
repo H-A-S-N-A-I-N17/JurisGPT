@@ -1,23 +1,18 @@
 # Environment variables
 .env
 
-# Python cache
+# Python specific
 __pycache__/
 *.pyc
-
-# Virtual environment
 .venv/
+venv/
 
-# OS files
+# OS generated files
 .DS_Store
 
-# Jupyter checkpoints
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Editor configs (optional)
+# Editor-specific configurations
 .vscode/
 .idea/
-
-# Virtual environment
-venv/
-.venv/
