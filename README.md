@@ -1,41 +1,28 @@
-# JurisGPT: LLM-based Legal ChatBot
+# 🏛 Legal-CHATBOT
 
-![Python](https://img.shields.io/badge/Python-3.12-blue)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-RAG-green)
-
-JurisGPT is a Large Language Model (LLM) based chatbot designed to provide legal information. The chatbot utilizes **RAG architecture**, advanced language models, and embeddings to retrieve and generate contextually relevant answers from a provided legal document corpus. This project specifically focuses on the Indian Penal Code and other related legal documents.
-
----
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-- [Deployed Website](#deployed-website)
+An AI-powered chatbot designed to provide intelligent legal information retrieval and decision support.  
+Built with **Python**, this project processes legal documents, performs semantic search, and answers domain-specific questions efficiently.
 
 ---
 
 ## Introduction
 
-LawGPT aims to assist users by providing accurate and concise legal information based on the Indian Penal Code and related legal documents. The chatbot retrieves relevant context from the knowledge base to answer user queries efficiently.
+JurisGPT aims to assist users by providing accurate and concise legal information based on the Indian Penal Code and related legal documents. The chatbot retrieves relevant context from the knowledge base to answer user queries efficiently.
 
 ---
 
 ## Features
 
-- 💬 Conversational interface for querying legal information  
-- ⚡ Uses FAISS for efficient vector search  
-- 🔍 Embeds documents using Google Generative AI Embeddings  
-- 📄 Handles large document sets by splitting and batching  
-- 📚 Provides sources for retrieved information  
+- **Document Ingestion** – Reads and processes legal documents for easy querying.
+- **Semantic Search** – Finds relevant clauses, sections, and references.
+- **Decision Engine** – Suggests relevant legal interpretations based on input queries.
+- **Configurable & Scalable** – Works with multiple document types (PDF, DOCX, emails).
 
 ---
 
 ## Architecture
 
-The architecture of LawGPT includes the following components:
+The architecture of JurisGPT includes the following components:
 
 1. **Document Loader:** Loads legal documents from a directory of PDF files.  
 2. **Text Splitter:** Splits documents into manageable chunks for embedding.  
