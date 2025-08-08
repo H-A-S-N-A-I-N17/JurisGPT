@@ -48,8 +48,9 @@ The architecture of JurisGPT includes the following components:
 
 **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/lawgpt.git
-cd lawgpt
+git clone https://github.com/H-A-S-N-A-I-N17/JurisGPT.git
+cd JurisGPT
+
 ```
 
 **2. Set Up and Activate Virtual Environment**
