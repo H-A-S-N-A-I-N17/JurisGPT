@@ -17,3 +17,7 @@ __pycache__/
 # Editor configs (optional)
 .vscode/
 .idea/
+
+# Virtual environment
+venv/
+.venv/
