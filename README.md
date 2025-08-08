@@ -1,4 +1,4 @@
-# 🏛 Legal-CHATBOT
+# 🏛 JurisGPT - A Legal ChatBot
 
 An AI-powered chatbot designed to provide intelligent legal information retrieval and decision support.  
 Built with **Python**, this project processes legal documents, performs semantic search, and answers domain-specific questions efficiently.
